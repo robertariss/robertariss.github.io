@@ -4,7 +4,7 @@ title: "About Me"
 
 ### Intro
 
-I am a physician-scientist interested in using artificial intelligence to improve patient care. I completed my undergraduate studies in bioengineering followed by a medical doctorate at the University of Toledo as part of the accelerated BS/MD program. Following this, I completed internal medicine residency at Brigham and Women's Hospital and Harvard Medical School. I am currently a fellow in cardiovascular medicine at Columbia University and completing a Master of Science in Biostatistics at the Mailman School of Public Health. 
+I am a physician-scientist interested in using artificial intelligence to improve patient care. I completed my undergraduate studies in bioengineering followed by a medical doctorate at the University of Toledo as part of the accelerated BS/MD program. Following this, I completed internal medicine residency at Brigham and Women's Hospital and Harvard Medical School. I am currently a fellow in cardiovascular medicine at Columbia University, and I completing a Master of Science in Biostatistics at the Mailman School of Public Health. 
 
 ### Resume
 
