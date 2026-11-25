@@ -1,0 +1,9 @@
+---
+title: "Robert W. Ariss, MD"
+---
+
+### This is my webpage for P8105 Data Science I
+
+<img src="images/headshot.jpg" style="width:40%"/>
+
+Here you will find my resume and contact information.

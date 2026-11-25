@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>About Me</title>
+
+<script src="site_libs/header-attrs-2.32/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="mailto:&lt;ra3429@cumc.columbia.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/robertariss/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">About Me</h1>
+
+</div>
+
+
+<div id="intro" class="section level3">
+<h3>Intro</h3>
+<p>I am a physician-scientist interested in using artificial
+intelligence to improve patient care. I completed my undergraduate
+studies in bioengineering followed by a medical doctorate at the
+University of Toledo as part of the accelerated BS/MD program. Following
+this, I completed internal medicine residency at Brigham and Women’s
+Hospital and Harvard Medical School. I am currently a fellow in
+cardiovascular medicine at Columbia University and completing a Master
+of Science in Biostatistics at the Mailman School of Public Health.</p>
+</div>
+<div id="resume" class="section level3">
+<h3>Resume</h3>
+<div id="education" class="section level4">
+<h4>Education</h4>
+<p>07/2026 - Present MS Biostatistics Columbia University; New York,
+NY</p>
+<p>08/2017- 05/2022 MD Medicine University of Toledo; Toledo, OH</p>
+<p>8/2013- 05/2017 BS Bioengineering University of Toledo; Toledo,
+OH</p>
+</div>
+<div id="training" class="section level4">
+<h4>Training</h4>
+<p>07/2025-Present Clinical Fellow Cardiovascular Medicine
+NewYork-Presbyterian Hospital; New York, NY</p>
+<p>07/2025-Present Postdoctoral Residency Fellow Cardiovascular Medicine
+Columbia University Irving Medical Center; New York, NY</p>
+<p>07/2023-06/2025 Resident Internal Medicine Brigham and Women’s
+Hospital; Boston, MA</p>
+<p>07/2022-06/2023 Intern Internal Medicine Brigham and Women’s
+Hospital; Boston, MA</p>
+</div>
+<div id="licensure" class="section level4">
+<h4>Licensure</h4>
+<p>06/2022-06/2025 Massachusetts State Limited Medical License</p>
+</div>
+<div id="honors-and-prizes" class="section level4">
+<h4>Honors and Prizes</h4>
+<p>2021 Distinction in Research University of Toledo College of
+Medicine</p>
+<p>2021 Alpha Omega Alpha University of Toledo Delta Chapter of Ohio
+Academic, service, and leadership achievement</p>
+</div>
+<div id="journal-reviewer" class="section level4">
+<h4>Journal Reviewer</h4>
+<p>European Heart Journal Journal of the American Heart Association The
+American Journal of Cardiology</p>
+</div>
+<div id="publications" class="section level4">
+<h4>Publications</h4>
+<p>Peer-Reviewed Publications in Print or Other Media</p>
+<ol style="list-style-type: decimal">
+<li><p>Jain V, Minhas AMK, Ariss RW, Nazir S, Khan SU, Khan MS, Rifai
+MA, Michos E, Mehta A, Qamar A, Vaughan EM, Sperling L, Virani SS.
+Demographic and Regional Trends of Cardiovascular Diseases and Diabetes
+Mellitus-Related Mortality in the United States From 1999 to 2019. Am J
+Med. 2023 07; 136(7):659-668.e7. PMID: 37183138</p></li>
+<li><p>Bhuta S, Ariss RW, Ding L, Nazir S, Magee GA, Garg PK, Gupta R.
+Oral factor Xa inhibitor underutilization following lower extremity
+peripheral vascular intervention. J Vasc Surg. 2023 08;
+78(2):498-505.e1. PMID: 37100234; PMCID: PMC10524143</p></li>
+<li><p>Narendrula A, Minhas AMK, Issa R, Ariss RW, Nazir S, Jain V, Ali
+M, Mahmood A. Age stratified trends in pulmonary hypertension-related
+mortality in the United States, 2004-2019. Am J Med Sci. 2023 05;
+365(5):470-471. PMID: 36828122</p></li>
+<li><p>Issa R, Minhas AMK, Issa R, Ariss RW, Nazir S, Satti DI, Ali M,
+Mahmood A. Urban-Rural Disparities in Pulmonary Hypertension-Related
+Mortality Between 2004 and 2019: A Call to Improve Access to Specialty
+Care Centers for Rural Residents in the United States. Curr Probl
+Cardiol. 2023 Jun; 48(6):101623. PMID: 36731687</p></li>
+<li><p>Minhas AMK, Jain V, Li M, Ariss RW, Fudim M, Michos ED, Virani
+SS, Sperling L, Mehta A. Family income and cardiovascular disease risk
+in American adults. Sci Rep. 2023 01 06; 13(1):279. PMID: 36609674;
+PMCID: PMC9822929</p></li>
+<li><p>Issa R, Nazir S, Khan Minhas AM, Lang J, Ariss RW, Kayani WT,
+Khalid MU, Sperling L, Shapiro MD, Jneid H, Gupta R. Demographic and
+regional trends of peripheral artery disease-related mortality in the
+United States, 2000 to 2019. Vasc Med. 2023 06; 28(3):205-213. PMID:
+36597656</p></li>
+<li><p>Ariss RW, Alhazmi L, Nazir S, Khouri SJ, Malhotra D, Rees M,
+Moukarbel GV. Brain-type natriuretic peptide levels and invasive
+hemodynamic parameters in dialysis dependent patients. Am J Med Sci.
+2023 03; 365(3):258-262. PMID: 36152812</p></li>
+<li><p>Ariss RW, Minhas AMK, Lang J, Ramanathan PK, Khan SU, Kassi M,
+Warraich HJ, Kolte D, Alkhouli M, Nazir S. Demographic and Regional
+Trends in Stroke-Related Mortality in Young Adults in the United States,
+1999 to 2019. J Am Heart Assoc. 2022 09 20; 11(18):e025903. PMID:
+36073626; PMCID: PMC9683653. Co-first-author</p></li>
+<li><p>Minhas AMK, Wyand RA, Ariss RW, Nazir S, Shahzeb Khan M, Jia X,
+Greene SJ, Fudim M, Wang A, Warraich HJ, Kalra A, Alam M, Virani SS.
+Demographic and Regional Trends of Hypertrophic Cardiomyopathy-Related
+Mortality in the United States, 1999 to 2019. Circ Heart Fail. 2022 09;
+15(9):e009292. PMID: 36126142</p></li>
+<li><p>Ariss RW, Minhas AMK, Lang J, Ramanathan PK, Khan SU, Kassi M,
+Warraich HJ, Kolte D, Alkhouli M, Nazir S. Urban-Rural Trends in Young
+Stroke-Related Mortality in the United States, 1999-2019. J Am Coll
+Cardiol. 2022 07 26; 80(4):466-468. PMID: 35863854</p></li>
+<li><p>Minhas AMK, Wyand RA, Ariss RW, Nazir S, Jain V, Al-Kindi SG,
+Shapiro MD, Campbell W, Sperling L, Virani SS. Rural-Urban Trends in
+Congenital Heart Disease-Related Mortality in the United States, 1999 to
+2019. JACC Adv. 2022 Jun; 1(2):100030. PMID: 38939311; PMCID:
+PMC11198472</p></li>
+<li><p>Nazir S, Ariss RW, Khan Minhas AM, Ahuja KR, Jneid H, Moukarbel
+GV. Outcomes of Patients With Type 2 Myocardial Infarction Complicating
+Acute Ischemic Stroke. Mayo Clin Proc. 2022 06; 97(6):1145-1155. PMID:
+35487788</p></li>
+<li><p>Mhanna M, Minhas AMK, Ariss RW, Nazir S, Khan SU, Vaduganathan M,
+Blankstein R, Alam M, Nasir K, Virani SS. Racial Disparities in Clinical
+Outcomes and Resource Utilization of Type 2 Myocardial Infarction in the
+United States: Insights From the National Inpatient Sample Database.
+Curr Probl Cardiol. 2023 Aug; 48(8):101202. PMID: 35398361</p></li>
+<li><p>Mhanna M, Minhas AMK, Ariss RW, Ahuja KR, Mostafa A, Nazir S,
+Sheikh M. Transcatheter Versus Surgical Aortic Valve Replacement in
+Hypertrophic Cardiomyopathy Patients with Aortic Stenosis. Curr Probl
+Cardiol. 2023 Aug; 48(8):101180. PMID: 35341800</p></li>
+<li><p>Nazir S, Ariss RW, Minhas AMK, Issa R, Michos ED, Birnbaum Y,
+Moukarbel GV, Ramanathan PK, Jneid H. Demographic and Regional Trends of
+Mortality in Patients With Aortic Dissection in the United States, 1999
+to 2019. J Am Heart Assoc. 2022 04 05; 11(7):e024533. PMID: 35301872;
+PMCID: PMC9075427. Co-first-author</p></li>
+<li><p>Issa R, Minhas AMK, Ariss RW, Nazir S, Rehman H, Kayani WT,
+Virani SS. Age-Related Disparity Trends in Stroke-Related Mortality in
+the United States, 1999 to 2019. Am J Cardiol. 2022 04 15; 169:162-163.
+PMID: 35241273</p></li>
+<li><p>Ahuja KR, Qatanani A, Khan Minhas AM, Ariss RW, Mahmood A, Ahuja
+SK, Vyas R, Nazir S. Urban-Rural Disparity Trends in Aortic Aneurysm
+Mortality in the United States, 1999-2019. J Am Coll Cardiol. 2022 02
+15; 79(6):614-616. PMID: 35144753</p></li>
+<li><p>Cash A, Minhas AMK, Pasadyn V, Nazir S, Ariss RW, Gupta R. Trends
+in pulmonary embolism mortality rates by age group in the United States,
+1999-2019. Am Heart J Plus. 2022 Jan; 13:100103. PMID: 38560063; PMCID:
+PMC10978166</p></li>
+<li><p>Ariss RW, Khan Minhas AM, Patel NJ, Zafrullah F, Bhavsar K, Nazir
+S, Jneid H, Moukarbel GV. Contemporary trends and in-hospital outcomes
+of catheter and stand-alone surgical ablation of atrial fibrillation.
+Europace. 2022 02 02; 24(2):218-225. PMID: 34347080.
+Co-first-author</p></li>
+<li><p>Ariss RW, Khan Minhas AM, Nazir S, Patel MM, Nesheiwat Z, Mhanna
+M, Kayani WT, Moukarbel GV, Nasir K, Jneid H. Outcomes and
+Revascularization Strategies of ST-Elevation Myocardial Infarction in
+Patients With Hypertrophic Cardiomyopathy. Curr Probl Cardiol. 2022 Nov;
+47(11):101102. PMID: 35041866. Co-first-author</p></li>
+<li><p>Ariss RW, Gupta R. Estimated Aggregate Treatment Benefit With
+Addition of Multiple Novel Medications for Secondary Prevention of
+Atherosclerotic Cardiovascular Disease. J Cardiovasc Pharmacol Ther.
+2022 Jan-Dec; 27:10742484221084772. PMID: 35259008</p></li>
+<li><p>Cash A, Minhas AMK, Pasadyn V, Nazir S, Ariss RW, Gupta R. Trends
+in pulmonary embolism mortality rates by age group in the United States,
+1999–2019. Am Heart J Plus. 2022; 13:100103.</p></li>
+<li><p>Ahuja KR, Ariss RW, Kolte D, Zachariah S, Nazir S, Sandhu CS,
+Ameen M, Ramanathan PK, Macciocca M, Elgin EE. Outcomes of Percutaneous
+Left Atrial Appendage Occlusion in the Elderly. JACC Cardiovasc Interv.
+2021 12 27; 14(24):2752-2754. PMID: 34949402. Co-first-author</p></li>
+<li><p>Ariss RW, Minhas AMK, Issa R, Ahuja KR, Patel MM, Eltahawy EA,
+Michos ED, Fudim M, Nazir S. Demographic and Regional Trends of
+Mortality in Patients With Acute Myocardial Infarction in the United
+States, 1999 to 2019. Am J Cardiol. 2022 02 01; 164:7-13. PMID:
+34857365. Co-first-author</p></li>
+<li><p>Ahuja KR, Nazir S, Ariss RW, Bansal P, Garg R, Ahuja SK, Minhas
+AMK, Harb S, Krishnaswamy A, Unai S, Kapadia SR. Derivation and
+Validation of Risk Prediction Model for 30-Day Readmissions Following
+Transcatheter Mitral Valve Repair. Curr Probl Cardiol. 2023 Mar;
+48(3):101033. PMID: 34748783</p></li>
+<li><p>Ahuja KR, Saad AM, Nazir S, Ariss RW, Shekhar S, Isogai T, Kassis
+N, Mahmood A, Sheikh M, Kapadia SR. Trends in Clinical Characteristics
+and Outcomes in ST-Elevation Myocardial Infarction Hospitalizations in
+the United States, 2002-2016. Curr Probl Cardiol. 2022 Dec;
+47(12):101005. PMID: 34627825</p></li>
+<li><p>Ahuja KR, Ariss RW, Nazir S, Vyas R, Saad AM, Macciocca M,
+Moukarbel GV. The Association of Chronic Kidney Disease With Outcomes
+Following Percutaneous Left Atrial Appendage Closure. JACC Cardiovasc
+Interv. 2021 08 23; 14(16):1830-1839. PMID: 34412801.
+Co-first-author</p></li>
+<li><p>Nazir S, Minhas AMK, Kamat IS, Ariss RW, Moukarbel GV, Gomez JCP,
+Fedson S, Nair A, Bozkurt B, Jneid H. Patient Characteristics and
+Outcomes of Type 2 Myocardial Infarction During Heart Failure
+Hospitalizations in the United States. Am J Med. 2021 11;
+134(11):1371-1379.e2. PMID: 34214459; PMCID: PMC9131468</p></li>
+<li><p>Ariss RW, Minhas AMK, Nazir S, Meenakshisundaram C, Ali MM, Ahuja
+KR, Grande RD, Ramanathan PK, Kayani WT, Sheikh M. Outcomes and Resource
+Utilization of Atrial Fibrillation Hospitalizations With Type 2
+Myocardial Infarction. Am J Cardiol. 2021 08 01; 152:27-33. PMID:
+34130825. Co-first-author</p></li>
+<li><p>Nazir S, Gupta T, Ahuja KR, Minhas AMK, Ariss RW, Gupta R, Goel
+SS, Kleiman NS. Association of Peri-Procedural Major Bleeding With
+Outcomes in Patients Undergoing Transcatheter Mitral Edge-To-Edge
+Repair. Am J Cardiol. 2021 08 01; 152:172-174. PMID: 34092365</p></li>
+<li><p>Ariss RW, Elzanaty AM, Minhas AMK, Nazir S, Gul S, Patel N, Ahuja
+KR, Mochon A, Eltahawy EA. Sex-based differences in clinical outcomes
+and resource utilization of type 2 myocardial infarction. Int J Cardiol.
+2021 09 01; 338:24-29. PMID: 34058288</p></li>
+<li><p>Nazir S, Ahuja KR, Ariss RW, Changal K, Khuder SA, Moukarbel GV.
+Home Health Care Utilization Trend, Predictors, and Association With
+Early Rehospitalization Following Endovascular Transcatheter Aortic
+Valve Replacement. Cardiovasc Revasc Med. 2022 03; 36:1-6. PMID:
+34045166</p></li>
+<li><p>Nazir S, Ahuja KR, Khan Minhas AM, Ariss RW, Goel SS, Gupta R.
+Association of Peri-Procedural Major Bleeding With Outcomes in Patients
+Undergoing Percutaneous Left Atrial Appendage Closure. Am J Cardiol.
+2021 07 15; 151:122-123. PMID: 34011438</p></li>
+<li><p>Nazir S, Ahuja KR, Ariss RW, Hassanein M, Schurmann P, Koneru S,
+Afshar H, Giorgberidze I, Moukarbel GV, Jneid H. Association of acute
+kidney injury with outcomes in patients undergoing percutaneous left
+atrial appendage closure. Catheter Cardiovasc Interv. 2021 11 15;
+98(6):E839-E846. PMID: 33856101</p></li>
+<li><p>Wang M, Zhang C, Lin S, Wang Y, Seicol BJ, Ariss RW, Xie R.
+Biased auditory nerve central synaptopathy is associated with
+age-related hearing loss. J Physiol. 2021 03; 599(6):1833-1854. PMID:
+33450070; PMCID: PMC8197675</p></li>
+<li><p>Wang Z, Li L, Ariss RW, Coburn KM, Behbahani M, Xue Z, Seo Y. The
+role of biofilms on the formation and decay of disinfection by-products
+in chlor(am)inated water distribution systems. Sci Total Environ. 2021
+Jan 20; 753:141606. PMID: 32890868</p></li>
+<li><p>Ariss RW, Nazir S, Ahuja KR, Moukarbel GV. Predictors of Home
+Health Care Utilization and Its Relationship With Early Outcomes in
+Patients Undergoing Transcatheter Mitral Valve Repair. Am J Cardiol.
+2020 09 15; 131:136-138. PMID: 32713652</p></li>
+</ol>
+<p>Invited or Peer-Selected Presentations</p>
+<p>National</p>
+<ol style="list-style-type: decimal">
+<li><p>Ariss RW, Guo J, Morrow DA, Berg DD. Trends in Temperature
+Control after Cardiac Arrest in Cardiac Intensive Care Units: An
+Analysis from the Critical Care Cardiology Trials Network Registry. Oral
+presentation: AHA Scientific Sessions 2024; 11/18/2024. Chicago, IL.
+Presenter.</p></li>
+<li><p>Ariss RW, Claggett BL, Vaduganathan M, Desai AS, Anand IS, Zile
+MR, Shen L, Jhund PS, Pfeffer MA, McMurray JJV, Solomon SD, Cunningham
+JW. Sudden Death in Heart Failure with Mildly Reduced or Preserved
+Ejection Fraction: A Pooled Individual Patient-Level Analysis of Five
+Randomized Clinical Trials. Oral presentation: HFSA Annual Scientific
+Meeting 2024. Meeting canceled due to weather emergency.</p></li>
+<li><p>Ariss RW, Gupta R. Estimated Aggregate Treatment Benefit with
+Addition of Multiple Novel Medications for Secondary Prevention of
+Atherosclerotic Cardiovascular Disease. Oral presentation: American
+Society for Preventive Cardiology 2021 Virtual Summit; 07/23/2021.
+Jacksonville, FL. Presenter.</p></li>
+<li><p>Ariss RW, Nazir S, Minhas AMK, Moukarbel GV, Jneid H. Patient
+Characteristics and Clinical Outcomes of Type 2 Myocardial Infarction in
+Patients with Acute Ischemic Stroke in the United States. Oral
+presentation: ESC Congress 2021 - The Digital Experience; 08/29/2021.
+Paris, FR. Presenter.</p></li>
+</ol>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
